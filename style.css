@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    background-color: rgba(17, 17, 17, 1);
+}
+
+.logo img  {
+    width: 140px;
+}
+
+.text {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    display: flex;
+    gap: 30px;
+    font-weight: 300;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    background-color: #fefe22;
+    border-radius: 30px;
+}
+
+.text-button {
+    background-color:#fefe22 ;
+    height: 50%;
+    padding: 0px 30px ;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(17, 17, 17, 1);
+}
+
+.main-img {
+    margin: 30px;
+    width: 1100px;
+    height: 650px;
+   
+   background-size: cover;
+    background-image: url("https://optim.tildacdn.com/tild3538-3334-4339-b836-313731383737/-/format/webp/-_19201080.png");
+}
+
+.main-button {
+    background-color:#fefe22 ;
+    height: 40px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 0px 30px;
+}
+
+.block1 {
+    margin: 30px;
+    width: 100%;
+    height: 502px;
+    background-image: url("https://optim.tildacdn.com/tild6337-6536-4363-b662-613637636232/-/format/webp/weights-exercise-wei.jpg");
+    background-size: cover;
+   
+}
+.front{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.block2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 104px;
+}
+
+.block-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 230px;
+    height: 220px;
+    background-color: #47484A;
+    margin: 10px 10px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+h3 {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.text-in-box {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+.box image {
+    background-image: url(https://optim.tildacdn.com/tild3230-6664-4365-a163…-/cover/331x313/center/center/-/format/webp/4.png);
+    background-size: cover;
+}
+
+.block3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.rectangle {
+    width: 328px;
+    height: 200px;
+    background-color: #47484A ;
+    margin: 10px 10px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+    
+}
+
+.head-rectangle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-in-rectangle {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
